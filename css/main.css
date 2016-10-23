@@ -100,11 +100,17 @@ main > p:first-child::first-letter {
   font-style: normal;
 }
 
-img {
-  float: right;
-  padding: .4em .2em ;
-  margin: 0;
+figure {
+  margin-right: 5rem;
+  margin-left: 20.5rem;
+}
+
+figure img {
   width: 300px;
+  float: right;
+  padding: .4em .2em;
+  margin-top: .3em;
+  border-top: 3px solid #333;
 }
 
 figcaption {
@@ -113,5 +119,6 @@ figcaption {
   float: right;
   padding: .4em .2em;
   font-size: .875rem;
-  margin-left: 2em;
+  border-bottom: 3px solid #333;
+  margin-left: .8em;
 }
