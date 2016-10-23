@@ -88,13 +88,30 @@ footer {
 
 /* Write your CSS here */
 
-main big {
-  float:left;
+main > p:first-child::first-letter {
+  float: left;
   background: #666;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
-  font-size: 100px;
+  font-size: 90px;
   margin: .1em;
-  padding: 6px;
-  color: #f2f2f2
+  padding: 0 6px;
+  color: #f2f2f2;
+  font-style: normal;
+}
+
+img {
+  float: right;
+  padding: .4em .2em ;
+  margin: 0;
+  width: 300px;
+}
+
+figcaption {
+  text-align: left;
+  font-style: italic;
+  float: right;
+  padding: .4em .2em;
+  font-size: .875rem;
+  margin-left: 2em;
 }
