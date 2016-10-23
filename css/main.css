@@ -87,3 +87,14 @@ footer {
 */
 
 /* Write your CSS here */
+
+main big {
+  float:left;
+  background: #666;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  font-size: 100px;
+  margin: .1em;
+  padding: 6px;
+  color: #f2f2f2
+}
