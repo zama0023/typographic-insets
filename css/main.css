@@ -122,3 +122,10 @@ figcaption {
   border-bottom: 3px solid #333;
   margin-left: .8em;
 }
+
+blockquote {
+  border-top: 3px solid #f2f2f2;
+  font-size: 1.5rem;
+  float: left;
+  border-bottom: 3px solid #f2f2f2;
+}
