@@ -90,24 +90,24 @@ footer {
 
 main > p:first-child::first-letter {
   float: left;
+  width: 50%;
   background: #666;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
-  font-size: 90px;
+  font-size: 5rem;
   margin: .1em;
-  padding: 0 6px;
+  padding: 10px;
   color: #f2f2f2;
   font-style: normal;
 }
 
 figure {
-  margin-right: 5rem;
-  margin-left: 20.5rem;
+  margin: .4em -150px 0 .7em;
+  float: right;
 }
 
 figure img {
   width: 300px;
-  float: right;
   padding: .4em .2em;
   margin-top: .3em;
   border-top: 3px solid #333;
@@ -116,16 +116,19 @@ figure img {
 figcaption {
   text-align: left;
   font-style: italic;
-  float: right;
   padding: .4em .2em;
   font-size: .875rem;
   border-bottom: 3px solid #333;
-  margin-left: .8em;
+  width: 300px;
 }
 
 blockquote {
-  border-top: 3px solid #f2f2f2;
+  border-top: 3px solid #333;
   font-size: 1.5rem;
+  color: #666;
   float: left;
-  border-bottom: 3px solid #f2f2f2;
+  width: 300px;
+  border-bottom: 3px solid #666;
+  text-align: right;
+  margin: .4em .7em 0 -150px;
 }
